@@ -18,13 +18,11 @@ Currently implemented Effects:
 ### Testing the plugin:
 - Open ***UEAudioDSPCollection.uproject*** (or start it from Visual Studio)
 - **DemoMap** will be automatically loaded
-- **Metasound:**
-    - Open ***Effect*Node_Metasound asset**
-    - Click ***Play*** button to start the Metasound
-- **SourceEffect** and **SubmixEffect:**
-    - Go to ***Blueprints*** > ***Open Level Blueprint***
-    - You will see that there is Blueprint logic to trigger a sound at the Sphere location and a Timeline that will drive a parameter of the SourceEffect
-    - If you want to test the Submix effect simply connect the Update port from Timeline to the Set Settings node of the SubmixEffect
-    - Click ***Play*** button to start the Level
+- Go to ***Blueprints*** > ***Open Level Blueprint***
+- You will see that there is Blueprint logic to trigger a sound at the Sphere location and a Timeline that will drive a parameter of the SourceEffect
+- If you want to test the Submix effect simply connect the Update port from Timeline to the Set Settings node of the SubmixEffect
+- Click ***Play*** button to start the Level
 
 <br/>
+
+![](https://user-images.githubusercontent.com/7047334/153770700-d5d52861-2c73-4b4c-b7af-7c2decc782d5.gif)
