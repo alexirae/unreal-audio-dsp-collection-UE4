@@ -6,7 +6,7 @@ An Unreal 4 plugin with a collection of audio effects in 2 different flavors: **
 
 Currently implemented Effects:
 - Gain
-- Saturation (A.K.A. Drive, Distortion, Wave Shaper) (WIP, more saturation types will be added)
+- Saturation (A.K.A. Drive, Distortion, Wave Shaper)
 
 ### Build steps:
 - **Clone** repository
